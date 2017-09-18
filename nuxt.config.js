@@ -58,5 +58,7 @@ module.exports = {
         })
       }
     }
+    // ,
+    // vendor: ['medium-editor']
   }
 }
