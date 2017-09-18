@@ -1,6 +1,6 @@
 # dev
 
-> developer site of blipper.cf
+> developer site of [blipper.cf](https://www.blipper.cf)
 
 ## Build Setup
 
