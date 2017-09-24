@@ -13,23 +13,24 @@ module.exports = {
       // { src: "/js/jquery.min.js" },
     ],
     link: [
-      { 
+      {
         rel: 'stylesheet',
-        href: "https://fonts.googleapis.com/icon?family=Material+Icons"
+        href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
       },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   modules: [
-      // '@nuxtjs/bootstrap-vue'
+    // '@nuxtjs/bootstrap-vue'
     //  ['@nuxtjs/bootstrap-vue', { css: false }]
   ],
-  plugins:  [
+  plugins: [
 
     // { src:`~plugins/bootstrap-vue` }
     // { src: '~plugins/element-ui' }
   ],
   env: {
+    // HOST_URL: 'http://home.highmaru.com:3000'
     // HOST_URL: 'http://lab.highmaru.com:4000',
     // AUTH0_CLIENT_ID: '5YAf7fC4cAgrbM9Hy54GsH62pvSgG9Lj',
     // AUTH0_CLIENT_DOMAIN: 'highmaru.auth0.com'
