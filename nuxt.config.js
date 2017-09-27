@@ -11,25 +11,27 @@ module.exports = {
     ],
     script: [
       // { src: "/js/jquery.min.js" },
+      { src: '//dapi.kakao.com/v2/maps/sdk.js?appkey=396ddfcf8519ea7480cd80a8c3e317f7&libraries=services,clusterer,drawing' }
     ],
     link: [
-      { 
+      {
         rel: 'stylesheet',
-        href: "https://fonts.googleapis.com/icon?family=Material+Icons"
+        href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
       },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   modules: [
-      // '@nuxtjs/bootstrap-vue'
+    // '@nuxtjs/bootstrap-vue'
     //  ['@nuxtjs/bootstrap-vue', { css: false }]
   ],
-  plugins:  [
+  plugins: [
 
     // { src:`~plugins/bootstrap-vue` }
     // { src: '~plugins/element-ui' }
   ],
   env: {
+    // HOST_URL: 'http://home.highmaru.com:3000'
     // HOST_URL: 'http://lab.highmaru.com:4000',
     // AUTH0_CLIENT_ID: '5YAf7fC4cAgrbM9Hy54GsH62pvSgG9Lj',
     // AUTH0_CLIENT_DOMAIN: 'highmaru.auth0.com'
@@ -48,16 +50,16 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, ctx) {
-      if (ctx.dev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
+    // extend (config, ctx) {
+    //   if (ctx.dev && ctx.isClient) {
+    //     config.module.rules.push({
+    //       enforce: 'pre',
+    //       test: /\.(js|vue)$/,
+    //       loader: 'eslint-loader',
+    //       exclude: /(node_modules)/
+    //     })
+    //   }
+    // }
     // ,
     // vendor: ['medium-editor']
   }
