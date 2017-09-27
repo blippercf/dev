@@ -6,6 +6,7 @@
       </div>
     </div>
     <daum-map name="ex1"></daum-map>
+
   </section>
 </template>
 
