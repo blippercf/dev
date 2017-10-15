@@ -6,6 +6,11 @@
       </div>
     </div>
     <daum-map name="ex1"></daum-map>
+    <div class="u-marginAuto u-maxWidth1000 u-marginBottom60 u-sm-paddingLeft20 u-sm-paddingRight20 u-sm-marginBottom30">
+      <div class="u-flex u-marginBottom25 u-borderBottomLighter">
+        <span class="heading-title heading-title--lineHeightTight u-flex0 u-block u-paddingBottom20 u-borderBottomNormal u-marginBottomNegative1 u-uiDisplayBold u-fontSize20 u-textColorDarker u-xs-fontSize18">타이틀</span>
+      </div>
+    </div>
 
   </section>
 </template>
